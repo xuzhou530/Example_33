@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/home_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader
+                android:id="@+id/home_header"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal|top">
+
+                <com.zanlabs.widget.infiniteviewpager.InfiniteViewPager
+                    android:id="@+id/home_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <com.zanlabs.widget.infiniteviewpager.indicator.CirclePageIndicator
+                    android:id="@+id/home_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="4dp"
+                    app:fillColor="#fafafa"
+                    app:pageColor="#aaaaaa"
+                    app:strokeWidth="0dp"/>
+
+            </com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader>
+        </RelativeLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

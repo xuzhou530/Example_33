@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Example_33</string>
+    <string-array name="banner_image">
+        <item>http://upload.jianshu.io/admin_banners/app_images/2542/5b04b8ccb01432425cb13dab1aed399da607b454.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2541/a665552696b860dad9783816b811af92d51e1892.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2383/126ffdb2dacadba08292bc2bf326cbeddb9e13f6.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2295/bf91c806e3b88e6f38f58c1f20367605f17cd797.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2474/82506437d78663c5ca0bee823bd4b7bed04b9b96.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2523/7207d4150a150f14efbdfc4411bf05b0199ceffa.jpg</item>
+        <item>http://upload.jianshu.io/admin_banners/app_images/2540/9a7011f88c7fa0f471824111011ec8ffd08860f2.jpg</item>
+    </string-array>
+    <string-array name="banner_url">
+        <item>http://www.jianshu.com/p/69a6da71e499</item>
+        <item>http://www.jianshu.com/p/f9f72a86ee02</item>
+        <item>http://www.jianshu.com/p/61907890ab0d</item>
+        <item>http://www.jianshu.com/p/9348cbf32aad</item>
+        <item>http://www.jianshu.com/p/087bd0713477</item>
+        <item>http://www.jianshu.com/p/7c0a80c6e8a8</item>
+        <item>http://www.jianshu.com/p/fef9771435a0</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
